@@ -83,7 +83,7 @@ function App() {
               {platforms.map((platform) => (
                 <a
                   key={platform.title}
-                  href={platform.link}
+                  href={platform.link} target="_blank" rel="noopener noreferrer"
                   className="text-slate-600 hover:text-slate-900 transition-colors"
                 >
                   {platform.title}
@@ -111,7 +111,7 @@ function App() {
               {platforms.map((platform) => (
                 <a
                   key={platform.title}
-                  href={platform.link}
+                  href={platform.link} target="_blank" rel="noopener noreferrer"
                   className="block px-3 py-2 text-slate-600 hover:text-slate-900 transition-colors"
                 >
                   {platform.title}
@@ -141,7 +141,7 @@ function App() {
             {platforms.map((platform) => (
               <a
                 key={platform.title}
-                href={platform.link}
+                href={platform.link} target="_blank" rel="noopener noreferrer"
                 className={`inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r ${platform.color} text-white hover:opacity-90 transition-opacity`}
               >
                 {platform.icon}
@@ -265,7 +265,7 @@ function App() {
                 {platforms.map((platform) => (
                   <li key={platform.title}>
                     <a
-                      href={platform.link}
+                      href={platform.link} target="_blank" rel="noopener noreferrer"
                       className="text-slate-400 hover:text-white transition-colors"
                     >
                       {platform.title}
