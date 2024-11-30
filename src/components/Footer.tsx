@@ -44,11 +44,11 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:contact@geomancycoaching.com"
+                  href="mailto:support@geomancycoaching.org"
                   className="text-slate-400 hover:text-white transition-colors flex items-center"
                 >
                   <Mail className="w-4 h-4 mr-2" />
-                  contact@geomancycoaching.com
+                  support@geomancycoaching.org
                 </a>
               </li>
             </ul>
