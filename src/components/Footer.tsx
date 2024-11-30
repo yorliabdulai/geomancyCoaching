@@ -1,9 +1,12 @@
 import React from 'react';
-import { Star, Mail, Facebook, Twitter, Instagram } from 'lucide-react';
+import { Star, Mail, Facebook, Twitter, Instagram, Youtube,  } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { SiTiktok } from 'react-icons/si';
+
 
 const platforms = [
-  { title: 'GeomancyCommerce', link: '#commerce' },
-  { title: 'GeomancyBlog', link: '#blog' },
+  { title: 'GeomancyCommerce', link: 'https://www.geomancycommerce.com' },
+  { title: 'GeomancyBlog', link: 'https://www.geomancyblog.com' },
   { title: 'GeomancyEdu', link: '#edu' }
 ];
 
@@ -53,14 +56,17 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://m.facebook.com/profile.php?id=61564145274142&name=xhp_nt_" target="_blank" className="text-slate-400 hover:text-white transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
-                <Twitter className="w-6 h-6" />
+              <a href="https://whatsapp.com/channel/0029VayEyK8LSmbduarBog16" target='_blank' className="text-slate-400 hover:text-white transition-colors">
+                <FaWhatsapp className="w-6 h-6" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
-                <Instagram className="w-6 h-6" />
+              <a href="http://www.youtube.com/@GeomancyCoaching-i3q" target='_blank' className="text-slate-400 hover:text-white transition-colors">
+                <Youtube className="w-6 h-6" />
+              </a>
+              <a href="https://www.tiktok.com/@geomancycoaching?_t=8rlACbATg1v&_r=1" target='_blank' className="text-slate-400 hover:text-white transition-colors">
+                <SiTiktok className="w-6 h-6" />
               </a>
             </div>
           </div>
