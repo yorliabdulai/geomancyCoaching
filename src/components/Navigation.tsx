@@ -29,6 +29,7 @@ export function Navigation() {
               <a
                 key={platform.title}
                 href={platform.link}
+                target='_blank'
                 className="text-slate-600 hover:text-slate-900 transition-colors"
               >
                 {platform.title}
