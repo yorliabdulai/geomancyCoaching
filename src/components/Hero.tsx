@@ -43,6 +43,7 @@ export function Hero() {
             <a
               key={platform.title}
               href={platform.link}
+              target='_blank'
               className={`inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r ${platform.color} text-white hover:opacity-90 transition-opacity`}
             >
               {platform.icon}
