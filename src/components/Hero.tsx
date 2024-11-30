@@ -6,13 +6,13 @@ const platforms = [
     title: 'GeomancyCommerce',
     icon: <ShoppingBag className="w-8 h-8" />,
     color: 'from-amber-500 to-amber-600',
-    link: '#commerce'
+    link: 'https://www.geomancycommerce.com'
   },
   {
     title: 'GeomancyBlog',
     icon: <BookOpen className="w-8 h-8" />,
     color: 'from-blue-500 to-blue-600',
-    link: '#blog'
+    link: 'https://www.geomancyblog.com'
   },
   {
     title: 'GeomancyEdu',
@@ -27,7 +27,7 @@ export function Hero() {
     <section
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: 'url("https://images.unsplash.com/photo-1518655048521-f130df041f66?auto=format&fit=crop&q=80&w=2000")',
+        backgroundImage: 'url("https://digitalambler.com/wp-content/uploads/2019/04/raml_lines.jpg")',
       }}
     >
       <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"></div>

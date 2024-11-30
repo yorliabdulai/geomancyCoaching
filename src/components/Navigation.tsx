@@ -7,8 +7,8 @@ interface Platform {
 }
 
 const platforms: Platform[] = [
-  { title: 'GeomancyCommerce', link: '#commerce' },
-  { title: 'GeomancyBlog', link: '#blog' },
+  { title: 'GeomancyCommerce', link: 'https://www.geomancycommerce.com' },
+  { title: 'GeomancyBlog', link: 'https://www.geomancyblog.com' },
   { title: 'GeomancyEdu', link: '#edu' },
 ];
 

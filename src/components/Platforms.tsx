@@ -7,14 +7,14 @@ const platforms = [
     description: 'Shop our collection of divination tools and spiritual merchandise',
     icon: <ShoppingBag className="w-8 h-8" />,
     color: 'from-amber-500 to-amber-600',
-    link: '#commerce'
+    link: 'https://www.geomancycommerce.com'
   },
   {
     title: 'GeomancyBlog',
     description: 'Dive into insightful articles and explore the world of geomantic traditions',
     icon: <BookOpen className="w-8 h-8" />,
     color: 'from-blue-500 to-blue-600',
-    link: '#blog'
+    link: 'https://www.geomancyblog.com'
   },
   {
     title: 'GeomancyEdu',
