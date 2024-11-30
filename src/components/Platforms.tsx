@@ -48,7 +48,7 @@ export function Platforms() {
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{platform.title}</h3>
                 <p className="text-slate-600 mb-4">{platform.description}</p>
                 <a
-                  href={platform.link}
+                  href={platform.link} target='_blank'
                   className="inline-flex items-center text-slate-900 hover:text-slate-700"
                 >
                   Learn more <ChevronRight className="ml-1 w-4 h-4" />
