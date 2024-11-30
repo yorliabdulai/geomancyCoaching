@@ -51,6 +51,15 @@ export function Footer() {
                   support@geomancycoaching.org
                 </a>
               </li>
+              <li>
+                <a
+                  href="mailto:contact@geomancycoaching.org"
+                  className="text-slate-400 hover:text-white transition-colors flex items-center"
+                >
+                  <Mail className="w-4 h-4 mr-2" />
+                  contact@geomancycoaching.org
+                </a>
+              </li>
             </ul>
           </div>
           <div>
