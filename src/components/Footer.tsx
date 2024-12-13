@@ -10,17 +10,6 @@ const platforms = [
   { title: 'GeomancyEdu', link: '#edu' }
 ];
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * The site footer component.
- *
- * This component displays the footer of the site, including
- * a brief description of GeomancyCoaching, a list of quick links to
- * the other platforms, contact information, and social media links.
- *
- * @returns The footer component.
- */
-/******  e5b425ac-8f47-4b77-9900-164784f44f27  *******/
 export function Footer() {
   return (
     <footer className="bg-slate-900 border-t border-slate-800 py-12">

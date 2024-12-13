@@ -21,7 +21,7 @@ const platforms = [
     description: 'Enroll in expert-led courses to deepen your understanding of geomancy',
     icon: <GraduationCap className="w-8 h-8" />,
     color: 'from-emerald-500 to-emerald-600',
-    link: '#edu'
+    link: '#e'
   }
 ];
 
