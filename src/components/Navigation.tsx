@@ -12,6 +12,17 @@ const platforms: Platform[] = [
   { title: 'GeomancyEdu', link: '#' },
 ];
 
+/**
+ * A React component that displays the navigation bar of the GeomancyCoaching website.
+ *
+ * The component renders a fixed navigation bar with the GeomancyCoaching logo on the left and
+ * a list of links to the GeomancyCommerce, GeomancyBlog, and GeomancyEdu platforms on the right.
+ *
+ * When the screen size is below the medium breakpoint, the links are hidden and a mobile menu
+ * button is displayed. When the button is clicked, the links are displayed in a dropdown menu.
+ *
+ * @returns A JSX element representing the navigation bar.
+ */
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
