@@ -21,6 +21,16 @@ const testimonials = [
   }
 ];
 
+/**
+ * A React component that displays a list of testimonials from the GeomancyCoaching community.
+ *
+ * The component renders a heading with the text "What Our Community Says", followed by a grid of
+ * testimonial cards. Each card displays a community member's photo, name, role, and testimonial.
+ *
+ * The component is designed to be used in a full-width section with a background color.
+ *
+ * @returns A JSX element representing the Testimonials section.
+ */
 export function Testimonials() {
   return (
     <section className="py-24 bg-slate-50">
