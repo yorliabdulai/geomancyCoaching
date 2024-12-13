@@ -1,8 +1,30 @@
 import React, { useState } from 'react';
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * The Newsletter component.
+ *
+ * This component renders a section allowing users to subscribe to a newsletter.
+ * It includes an input field for the user's email and a subscribe button.
+ * Upon submission, the email is handled by the `handleSubscribe` function.
+ * The component is styled to match the site's theme and encourages users to
+ * stay connected with updates, exclusive offers, and insights into geomancy.
+ *
+ * @returns The newsletter subscription component.
+ */
+/******  c6e8034d-f3c6-4d82-990f-c691d45d8e47  *******/
 export function Newsletter() {
   const [email, setEmail] = useState('');
 
+/*************  ✨ Codeium Command ⭐  *************/
+  /**
+   * Handles the newsletter subscription by preventing the default form submission,
+   * clearing the email input field, and triggering the newsletter subscription
+   * logic.
+   *
+   * @param {React.FormEvent} e The form submission event.
+   */
+/******  d2c7eb58-af3e-430f-ad2a-c9bb598f9f6d  *******/
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle newsletter subscription
