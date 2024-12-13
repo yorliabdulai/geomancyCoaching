@@ -31,6 +31,13 @@ const consultationTypes = [
   'Future Life', 'Daily Reading', 'Weekly Reading',
   'Monthly Reading', 'Yearly Reading'
 ];
+const coachingTypes = [
+  'Life Reading', 'Luck', 'Relatives', 'Parents', 'Children',
+  'Marriage', 'Dreams', 'Journey', 'Workplace',
+  'Friendships', 'Obstacles', 'Past Life', 'Present',
+  'Future Life', 'Daily Reading', 'Weekly Reading',
+  'Monthly Reading', 'Yearly Reading'
+];
 
 export function Services() {
   return (
@@ -67,6 +74,16 @@ export function Services() {
             Available Coaching and Consultation Types
           </h3>
           <h4 className="text-lg font-bold text-slate-900 mb-4">Types of Coaching</h4>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {coachingTypes.map((type) => (
+              <div
+                key={type}
+                className="p-4 bg-slate-50 rounded-lg text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-colors duration-200"
+              >
+                {type}
+              </div>
+            ))}
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {consultationTypes.map((type) => (
               <div
