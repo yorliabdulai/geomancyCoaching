@@ -25,11 +25,7 @@ const services = [
 ];
 
 const consultationTypes = [
-  'Life Reading', 'Luck', 'Relatives', 'Parents', 'Children',
-  'Relationship/Marriage', 'Dreams', 'Journey', 'Workplace',
-  'Friendships', 'Obstacles', 'Past Life', 'Present',
-  'Future Life', 'Daily Reading', 'Weekly Reading',
-  'Monthly Reading', 'Yearly Reading'
+  'Daily', 'Weekly', 'Monthly', 'Yearly'
 ];
 const coachingTypes = [
   'Life Reading', 'Luck', 'Relatives', 'Parents', 'Children',
