@@ -18,20 +18,32 @@ const platforms = [
     title: 'GeomancyEdu',
     icon: <GraduationCap className="w-8 h-8" />,
     color: 'from-emerald-500 to-emerald-600',
-    link: '#edu'
+    link: '#'
   }
 ];
 
 /*************  ✨ Codeium Command ⭐  *************/
 /**
- * The site hero component.
+ * The Hero component is a large, full-height section that displays a background
+ * image and a centered text with a call-to-action to explore the GeomancyCoaching
+ * platforms.
  *
- * This component displays the hero section of the site, including a background
- * image, a title, a description, and links to the other platforms.
+ * The component styles are optimized for a full-height section with a background
+ * image, and for a responsive design that adapts to different screen sizes.
  *
- * @returns The hero component.
+ * The component renders a heading with a large font size, a paragraph of text,
+ * and a call-to-action button that links to the platform websites.
+ *
+ * The component can be used in any context where a full-height section with a
+ * background image is needed, such as the main page of a website or a landing
+ * page.
+ *
+ * The component is fully responsive and will adapt to different screen sizes.
+ *
+ * The component is a pure function component, meaning that it only depends on
+ * its props and does not maintain any state.
  */
-/******  2cb84fdb-2120-4057-afe9-c84156ac4db1  *******/
+/******  e2674dbf-48ce-4cc2-bcff-214d5c4b862b  *******/
 export function Hero() {
   return (
     <section
