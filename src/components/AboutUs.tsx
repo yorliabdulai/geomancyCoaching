@@ -1,5 +1,16 @@
 import React from 'react';
 
+/**
+ * A React component that displays the About Us section of the homepage.
+ *
+ * The section contains a heading and two paragraphs of text. The first paragraph
+ * provides a brief overview of the Geomancy Coaching platform, including its
+ * resources and goals. The second paragraph provides a more detailed description
+ * of the platform's mission to become the leading source of geomancy knowledge and
+ * application.
+ *
+ * @returns A JSX element representing the About Us section of the homepage.
+ */
 export function AboutUs() {
   return (
     <section className="py-24 bg-white">
