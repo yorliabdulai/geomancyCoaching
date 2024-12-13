@@ -84,6 +84,7 @@ export function Services() {
               </div>
             ))}
           </div>
+          <h4 className="text-lg font-bold text-slate-900 mt-8 mb-4">Types of Consultation</h4>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {consultationTypes.map((type) => (
               <div
