@@ -1,5 +1,14 @@
 import React from 'react';
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * The About Us component.
+ *
+ * This component displays a brief description of Geomancy Coaching, its goals, and its resources.
+ *
+ * @returns The About Us component.
+ */
+/******  dc21af4d-0c6f-4ad5-88a7-ef9dda238e4d  *******/
 export function AboutUs() {
   return (
     <section className="py-24 bg-white">
