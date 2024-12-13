@@ -22,6 +22,16 @@ const platforms = [
   }
 ];
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * The site hero component.
+ *
+ * This component displays the hero section of the site, including a background
+ * image, a title, a description, and links to the other platforms.
+ *
+ * @returns The hero component.
+ */
+/******  2cb84fdb-2120-4057-afe9-c84156ac4db1  *******/
 export function Hero() {
   return (
     <section
