@@ -31,6 +31,7 @@ export function Footer() {
                 <li key={platform.title}>
                   <a
                     href={platform.link}
+                    target='_blank'
                     className="text-slate-400 hover:text-white transition-colors"
                   >
                     {platform.title}
