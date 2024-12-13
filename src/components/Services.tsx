@@ -35,6 +35,18 @@ const coachingTypes = [
   'Monthly Reading', 'Yearly Reading'
 ];
 
+/**
+ * Renders the Services section of the homepage.
+ *
+ * This section provides an overview of the various services offered by Geomancy Coaching, 
+ * including blog posts, subscription-based courses, geomancy booklets, private coaching, 
+ * and consultation services. It also displays the available types of coaching and consultation.
+ *
+ * The section is styled with Tailwind CSS classes for layout and design, and it features a 
+ * responsive grid layout for displaying services and consultation types.
+ *
+ * @returns A JSX element representing the Services section.
+ */
 export function Services() {
   return (
     <section className="py-24 bg-slate-50">
