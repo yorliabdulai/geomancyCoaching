@@ -66,6 +66,7 @@ export function Services() {
           <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">
             Available Coaching and Consultation Types
           </h3>
+          <h4 className="text-lg font-bold text-slate-900 mb-4">Types of Coaching</h4>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {consultationTypes.map((type) => (
               <div
