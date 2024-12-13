@@ -9,9 +9,20 @@ interface Platform {
 const platforms: Platform[] = [
   { title: 'GeomancyCommerce', link: 'https://www.geomancycommerce.com' },
   { title: 'GeomancyBlog', link: 'https://www.geomancyblog.com' },
-  { title: 'GeomancyEdu', link: '#edu' },
+  { title: 'GeomancyEdu', link: '#' },
 ];
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * The Navigation component renders the site's navigation bar.
+ *
+ * It includes the GeomancyCoaching logo, platform links, and a responsive
+ * menu button for mobile view. The component uses state to toggle the
+ * visibility of the mobile menu, displaying platform links in a dropdown
+ * format when the menu is open. The navigation bar is styled with a 
+ * semi-transparent background and shadow effect for a modern look.
+ */
+/******  163758e8-5d18-4aab-91a3-3fa4ed8c4bb6  *******/
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
